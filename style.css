@@ -36,9 +36,9 @@ h2{
 #hours, #minutes, #seconds, #miliseconds{
     background-color: lightblue;
     opacity: .8;
-    border-radius: 50px;
+    border-radius: 10px;
     height: 50px;
-    font-weight: 900;
+    font-weight: 700;
 }
 .text{
     background: rgb(0, 109, 128);
