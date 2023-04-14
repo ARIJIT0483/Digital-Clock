@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    /* margin-left: 37%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin-top: 20vh;
+    text-shadow: 0px 3px 5px rgb(48, 47, 47);
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.clock span {
+    display: flex;
+    margin: 5px;
+    font-size: 25px;
+    /* background-color: blue; */
+    justify-content: center;
+    align-items: center;
+}
+#hours, #minutes, #seconds, #miliseconds{
+    background-color: lightblue;
+    opacity: .8;
+    border-radius: 10px;
+    height: 50px;
+    font-weight: 700;
+}
+.text{
+    background: rgb(0, 109, 128);
+    opacity: .8;
+    border-radius: 10px;
+    padding: 2px;
+}
+#ampm{
+    margin-bottom: 0px;
+    background-color: rgb(130, 238, 170);
+    border-radius: 10px;
+    padding: 2px;
+    opacity: .8;
+    margin-top: 55px;
+}
+@media screen and (max-width:950px) {
+    .clock{
+        display: grid;
+       
+    }
+    h2{
+        font-size: 30px;
+    }
+    #ampm{
+        margin-top: 10px;
+    }
+    body{
+        background: url(back2.jpg);
+        background-repeat: no-repeat;
+    }
+}
